@@ -71,7 +71,7 @@
 .controller.edit,
 .controller.custom,
 .controller.xbox {
-    transform: none !important;
+    transform: translate(25px, -40px) !important;
     margin-left: -375px !important;
-    margin-top: -100px !important;
+    margin-top: 0px !important;
 }
