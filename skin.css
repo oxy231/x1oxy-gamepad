@@ -73,5 +73,5 @@
 .controller.xbox {
     transform: none !important;
     margin-left: -375px !important;
-    margin-top: -315px !important;
+    margin-top: 0px !important;
 }
