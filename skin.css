@@ -64,3 +64,12 @@
 .controller:is(.edit,.custom,.xbox) .triggers .trigger.left.pressed {opacity:1;background-image:url("https://oxy231.github.io/x1oxy-gamepad/left-trigger-pressed.svg") !important;}
 .controller:is(.edit,.custom,.xbox) .triggers .trigger.right.pressed {opacity:1;background-image:url("https://oxy231.github.io/x1oxy-gamepad/right-trigger-pressed.svg") !important;}
 .controller:is(.edit,.custom,.xbox) .quadrant {position:absolute;left:354px;top:258px;width:45px;height:45px;background:none !important;}
+/* ========================================
+   x1oxy_ — CONTROLLER POSITION FIX
+   ======================================== */
+
+.controller.edit,
+.controller.custom,
+.controller.xbox {
+    transform: translateY(150px) !important;
+}
