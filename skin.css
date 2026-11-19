@@ -72,6 +72,6 @@
 .controller.custom,
 .controller.xbox {
     transform: none !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
+    margin-left: -375px !important;
+    margin-top: -315px !important;
 }
