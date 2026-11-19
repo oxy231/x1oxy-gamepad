@@ -1,3 +1,4 @@
+
 /* x1oxy_ FINAL controller — beta GPV and legacy Xbox fallback.
    Keep controller.png and these SVG files beside this CSS on GitHub Pages. */
 .controller.edit, .controller.custom, .controller.xbox, .controller.xbox.white,
@@ -64,6 +65,7 @@
 .controller:is(.edit,.custom,.xbox) .triggers .trigger.left.pressed {opacity:1;background-image:url("https://oxy231.github.io/x1oxy-gamepad/left-trigger-pressed.svg") !important;}
 .controller:is(.edit,.custom,.xbox) .triggers .trigger.right.pressed {opacity:1;background-image:url("https://oxy231.github.io/x1oxy-gamepad/right-trigger-pressed.svg") !important;}
 .controller:is(.edit,.custom,.xbox) .quadrant {position:absolute;left:354px;top:258px;width:45px;height:45px;background:none !important;}
+
 /* ========================================
    x1oxy_ — CONTROLLER POSITION FIX
    ======================================== */
@@ -74,4 +76,51 @@
     transform: translate(25px, -40px) !important;
     margin-left: -375px !important;
     margin-top: 0px !important;
+}
+
+/* ========================================
+   x1oxy_ — STICK AND BUTTON ALIGNMENT
+   ======================================== */
+
+/* Left and right analog sticks */
+.controller:is(.edit,.custom,.xbox) .sticks {
+    left: 144px !important;
+    top: 239px !important;
+}
+
+.controller:is(.edit,.custom,.xbox) .stick.left {
+    left: 0px !important;
+    top: 0px !important;
+}
+
+.controller:is(.edit,.custom,.xbox) .stick.right {
+    left: 288px !important;
+    top: 113px !important;
+}
+
+/* ABXY button group */
+.controller:is(.edit,.custom,.xbox) .abxy {
+    left: 488px !important;
+    top: 192px !important;
+}
+
+/* Individual buttons */
+.controller:is(.edit,.custom,.xbox) .abxy .a {
+    left: 55px !important;
+    top: 108px !important;
+}
+
+.controller:is(.edit,.custom,.xbox) .abxy .b {
+    right: 0px !important;
+    top: 58px !important;
+}
+
+.controller:is(.edit,.custom,.xbox) .abxy .x {
+    left: 4px !important;
+    top: 58px !important;
+}
+
+.controller:is(.edit,.custom,.xbox) .abxy .y {
+    left: 55px !important;
+    top: 7px !important;
 }
