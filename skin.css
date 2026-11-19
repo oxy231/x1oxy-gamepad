@@ -1,0 +1,49 @@
+/* x1oxy_ — Low Frequency | Xbox One GamePad Viewer edit skin */
+/* Assets hosted in the root of https://oxy231.github.io/x1oxy-gamepad/ */
+.controller.edit, .controller.custom {
+  width:750px!important; height:630px!important;
+  background: url('https://oxy231.github.io/x1oxy-gamepad/base-connected.svg') center / 750px 630px no-repeat!important;
+}
+.controller.edit.disconnected, .controller.custom.disconnected {
+  background-image:url('https://oxy231.github.io/x1oxy-gamepad/base-disconnected.svg')!important;
+}
+.edit .abxy, .custom .abxy {position:absolute;left:488px;top:192px;width:153px;height:156px;}
+.edit .abxy .button, .custom .abxy .button {position:absolute;width:48px;height:48px;background-size:48px 48px!important;background-repeat:no-repeat!important;opacity:1;}
+.edit .abxy .a,.custom .abxy .a {top:108px;left:55px;background-image:url('https://oxy231.github.io/x1oxy-gamepad/a.svg')!important;}
+.edit .abxy .b,.custom .abxy .b {top:58px;right:0;background-image:url('https://oxy231.github.io/x1oxy-gamepad/b.svg')!important;}
+.edit .abxy .x,.custom .abxy .x {top:58px;left:4px;background-image:url('https://oxy231.github.io/x1oxy-gamepad/x.svg')!important;}
+.edit .abxy .y,.custom .abxy .y {top:7px;left:55px;background-image:url('https://oxy231.github.io/x1oxy-gamepad/y.svg')!important;}
+.edit .abxy .a.pressed,.custom .abxy .a.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/a-pressed.svg')!important;}
+.edit .abxy .b.pressed,.custom .abxy .b.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/b-pressed.svg')!important;}
+.edit .abxy .x.pressed,.custom .abxy .x.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/x-pressed.svg')!important;}
+.edit .abxy .y.pressed,.custom .abxy .y.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/y-pressed.svg')!important;}
+.edit .abxy .button.pressed,.custom .abxy .button.pressed {background-position:center!important;margin-top:0!important;}
+.edit .sticks,.custom .sticks {position:absolute;left:144px;top:239px;width:371px;height:196px;}
+.edit .stick,.custom .stick {position:absolute;width:83px;height:83px;background:url('https://oxy231.github.io/x1oxy-gamepad/left-stick.svg') center / 83px 83px no-repeat!important;}
+.edit .stick.left,.custom .stick.left {left:0;top:0;}
+.edit .stick.right,.custom .stick.right {left:288px;top:113px;background-image:url('https://oxy231.github.io/x1oxy-gamepad/right-stick.svg')!important;}
+.edit .stick.left.pressed,.custom .stick.left.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/left-stick-pressed.svg')!important;}
+.edit .stick.right.pressed,.custom .stick.right.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/right-stick-pressed.svg')!important;}
+.edit .triggers,.custom .triggers {position:absolute;left:152px;top:0;width:446px;height:121px;}
+.edit .trigger,.custom .trigger {width:88px;height:121px;opacity:1;background-size:88px 121px!important;background-repeat:no-repeat!important;}
+.edit .trigger.left,.custom .trigger.left {float:left;background-image:url('https://oxy231.github.io/x1oxy-gamepad/left-trigger.svg')!important;}
+.edit .trigger.right,.custom .trigger.right {float:right;transform:none!important;background-image:url('https://oxy231.github.io/x1oxy-gamepad/right-trigger.svg')!important;}
+.edit .trigger.left.pressed,.custom .trigger.left.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/left-trigger-pressed.svg')!important;}
+.edit .trigger.right.pressed,.custom .trigger.right.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/right-trigger-pressed.svg')!important;}
+.edit .bumpers,.custom .bumpers {position:absolute;left:107px;top:129px;width:536px;height:61px;}
+.edit .bumper,.custom .bumper {width:170px;height:61px;opacity:1;background-size:170px 61px!important;background-repeat:no-repeat!important;}
+.edit .bumper.left,.custom .bumper.left {float:left;background-image:url('https://oxy231.github.io/x1oxy-gamepad/left-bumper.svg')!important;}
+.edit .bumper.right,.custom .bumper.right {float:right;transform:none!important;background-image:url('https://oxy231.github.io/x1oxy-gamepad/right-bumper.svg')!important;}
+.edit .bumper.left.pressed,.custom .bumper.left.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/left-bumper-pressed.svg')!important;}
+.edit .bumper.right.pressed,.custom .bumper.right.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/right-bumper-pressed.svg')!important;}
+.edit .arrows,.custom .arrows {position:absolute;left:306px;top:264px;width:141px;height:33px;}
+.edit .back,.custom .back,.edit .start,.custom .start {width:33px;height:33px;opacity:1;background-size:33px 33px!important;background-repeat:no-repeat!important;}
+.edit .back,.custom .back {float:left;background-image:url('https://oxy231.github.io/x1oxy-gamepad/select.svg')!important;}
+.edit .start,.custom .start {float:right;background-image:url('https://oxy231.github.io/x1oxy-gamepad/start.svg')!important;}
+.edit .back.pressed,.custom .back.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/select-pressed.svg')!important;}
+.edit .start.pressed,.custom .start.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/start-pressed.svg')!important;}
+.edit .meta,.custom .meta {position:absolute;left:382px;bottom:216px;width:45px;height:45px;background:url('https://oxy231.github.io/x1oxy-gamepad/player-indicator.svg') center / contain no-repeat!important;}
+.edit .meta.pressed,.custom .meta.pressed {background-image:url('https://oxy231.github.io/x1oxy-gamepad/player-indicator-pressed.svg')!important;}
+.edit .dpad,.custom .dpad {position:absolute;left:223px;top:345px;width:110px;height:111px;background:url('https://oxy231.github.io/x1oxy-gamepad/dpad.svg') center / 110px 111px no-repeat!important;}
+.edit .dpad:has(.face.pressed),.custom .dpad:has(.face.pressed) {background-image:url('https://oxy231.github.io/x1oxy-gamepad/dpad-pressed.svg')!important;}
+.edit .dpad .face,.custom .dpad .face {background:none!important;}
