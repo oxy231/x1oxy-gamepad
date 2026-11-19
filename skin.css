@@ -3,14 +3,14 @@
 .controller.edit, .controller.custom, .controller.xbox, .controller.xbox.white,
 .edit.controller, .custom.controller {
   width:750px !important; height:630px !important;
-  background-image:url("https://oxy231.github.io/x1oxy-gamepad/controller.png") !important;
+  background-image:url("") !important;
   background-size:750px 630px !important;
   background-repeat:no-repeat !important;
   background-position:center center !important;
   position:relative;
 }
 .controller.edit.disconnected, .controller.custom.disconnected, .controller.xbox.disconnected {
-  background-image:url("https://oxy231.github.io/x1oxy-gamepad/controller.png") !important;
+  background-image:url("") !important;
 }
 /* Keep the original artwork visible and use separate input layers. */
 .controller:is(.edit,.custom,.xbox) .abxy {position:absolute;left:488px;top:192px;width:153px;height:156px;}
