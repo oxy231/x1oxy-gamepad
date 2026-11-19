@@ -1,33 +1,28 @@
 
-/* x1oxy_ FINAL CONTROLLER
-   Xbox One / GamePad Viewer
-   Original artwork and button positions preserved.
-*/
+/* =========================================
+   x1oxy_ — CUSTOM XBOX ONE CONTROLLER
+   GamePad Viewer
+   ========================================= */
 
-.controller.edit,
-.controller.custom,
+/* CONTROLLER BACKGROUND */
+
 .controller.xbox,
-.controller.xbox.white,
-.edit.controller,
-.custom.controller {
-    width: 750px !important;
-    height: 630px !important;
+.controller.xbox.white {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/controller.png") !important;
     background-size: 750px 630px !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
-    position: relative;
 }
 
-.controller.edit.disconnected,
-.controller.custom.disconnected,
+/* DISCONNECTED */
+
 .controller.xbox.disconnected {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/controller.png") !important;
 }
 
 /* ABXY BUTTONS */
 
-.controller:is(.edit,.custom,.xbox) .abxy {
+.controller.xbox .abxy {
     position: absolute;
     left: 488px;
     top: 192px;
@@ -35,7 +30,7 @@
     height: 156px;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .button {
+.controller.xbox .abxy .button {
     position: absolute;
     width: 48px;
     height: 48px;
@@ -45,49 +40,49 @@
     opacity: 1;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .a {
+.controller.xbox .abxy .a {
     top: 108px;
     left: 55px;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/a.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .a.pressed {
+.controller.xbox .abxy .a.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/a-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .b {
+.controller.xbox .abxy .b {
     top: 58px;
     right: 0;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/b.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .b.pressed {
+.controller.xbox .abxy .b.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/b-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .x {
+.controller.xbox .abxy .x {
     top: 58px;
     left: 4px;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/x.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .x.pressed {
+.controller.xbox .abxy .x.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/x-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .y {
+.controller.xbox .abxy .y {
     top: 7px;
     left: 55px;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/y.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .abxy .y.pressed {
+.controller.xbox .abxy .y.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/y-pressed.svg") !important;
 }
 
 /* ANALOG STICKS */
 
-.controller:is(.edit,.custom,.xbox) .sticks {
+.controller.xbox .sticks {
     position: absolute;
     left: 144px;
     top: 239px;
@@ -95,7 +90,7 @@
     height: 196px;
 }
 
-.controller:is(.edit,.custom,.xbox) .sticks .stick {
+.controller.xbox .stick {
     position: absolute;
     width: 83px;
     height: 83px;
@@ -104,29 +99,29 @@
     background-repeat: no-repeat !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .sticks .stick.left {
+.controller.xbox .stick.left {
     left: 0;
     top: 0;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/left-stick.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .sticks .stick.left.pressed {
+.controller.xbox .stick.left.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/left-stick-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .sticks .stick.right {
+.controller.xbox .stick.right {
     left: 288px;
     top: 113px;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/right-stick.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .sticks .stick.right.pressed {
+.controller.xbox .stick.right.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/right-stick-pressed.svg") !important;
 }
 
 /* D-PAD */
 
-.controller:is(.edit,.custom,.xbox) .dpad {
+.controller.xbox .dpad {
     position: absolute;
     left: 223px;
     top: 345px;
@@ -134,45 +129,45 @@
     height: 111px;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face {
+.controller.xbox .dpad .face {
     position: absolute;
     background: none !important;
     opacity: 0;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face.pressed {
+.controller.xbox .dpad .face.pressed {
     opacity: 1;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face.up {
+.controller.xbox .dpad .face.up {
     top: 0;
     left: 38px;
     width: 34px;
     height: 56px;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face.down {
+.controller.xbox .dpad .face.down {
     bottom: 0;
     left: 38px;
     width: 34px;
     height: 56px;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face.left {
+.controller.xbox .dpad .face.left {
     top: 38px;
     left: 0;
     width: 55px;
     height: 35px;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face.right {
+.controller.xbox .dpad .face.right {
     top: 38px;
     right: 0;
     width: 55px;
     height: 35px;
 }
 
-.controller:is(.edit,.custom,.xbox) .dpad .face.pressed {
+.controller.xbox .dpad .face.pressed {
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/dpad-pressed.svg") !important;
     background-size: 110px 111px !important;
     background-position: center !important;
@@ -181,7 +176,7 @@
 
 /* START AND SELECT */
 
-.controller:is(.edit,.custom,.xbox) .arrows {
+.controller.xbox .arrows {
     position: absolute;
     left: 306px;
     top: 264px;
@@ -189,8 +184,8 @@
     height: 33px;
 }
 
-.controller:is(.edit,.custom,.xbox) .arrows .back,
-.controller:is(.edit,.custom,.xbox) .arrows .start {
+.controller.xbox .arrows .back,
+.controller.xbox .arrows .start {
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -198,27 +193,27 @@
     background-repeat: no-repeat !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .arrows .back {
+.controller.xbox .arrows .back {
     float: left;
 }
 
-.controller:is(.edit,.custom,.xbox) .arrows .start {
+.controller.xbox .arrows .start {
     float: right;
 }
 
-.controller:is(.edit,.custom,.xbox) .arrows .back.pressed {
+.controller.xbox .arrows .back.pressed {
     opacity: 1;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/select-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .arrows .start.pressed {
+.controller.xbox .arrows .start.pressed {
     opacity: 1;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/start-pressed.svg") !important;
 }
 
 /* BUMPERS */
 
-.controller:is(.edit,.custom,.xbox) .bumpers {
+.controller.xbox .bumpers {
     position: absolute;
     left: 107px;
     top: 129px;
@@ -226,7 +221,7 @@
     height: 61px;
 }
 
-.controller:is(.edit,.custom,.xbox) .bumpers .bumper {
+.controller.xbox .bumpers .bumper {
     width: 170px;
     height: 61px;
     opacity: 0;
@@ -234,28 +229,28 @@
     background-repeat: no-repeat !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .bumpers .bumper.left {
+.controller.xbox .bumper.left {
     float: left;
 }
 
-.controller:is(.edit,.custom,.xbox) .bumpers .bumper.right {
+.controller.xbox .bumper.right {
     float: right;
     transform: none !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .bumpers .bumper.left.pressed {
+.controller.xbox .bumper.left.pressed {
     opacity: 1;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/left-bumper-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .bumpers .bumper.right.pressed {
+.controller.xbox .bumper.right.pressed {
     opacity: 1;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/right-bumper-pressed.svg") !important;
 }
 
 /* TRIGGERS */
 
-.controller:is(.edit,.custom,.xbox) .triggers {
+.controller.xbox .triggers {
     position: absolute;
     left: 152px;
     top: 0;
@@ -263,7 +258,7 @@
     height: 121px;
 }
 
-.controller:is(.edit,.custom,.xbox) .triggers .trigger {
+.controller.xbox .trigger {
     width: 88px;
     height: 121px;
     opacity: 0;
@@ -271,28 +266,28 @@
     background-repeat: no-repeat !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .triggers .trigger.left {
+.controller.xbox .trigger.left {
     float: left;
 }
 
-.controller:is(.edit,.custom,.xbox) .triggers .trigger.right {
+.controller.xbox .trigger.right {
     float: right;
     transform: none !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .triggers .trigger.left.pressed {
+.controller.xbox .trigger.left.pressed {
     opacity: 1;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/left-trigger-pressed.svg") !important;
 }
 
-.controller:is(.edit,.custom,.xbox) .triggers .trigger.right.pressed {
+.controller.xbox .trigger.right.pressed {
     opacity: 1;
     background-image: url("https://oxy231.github.io/x1oxy-gamepad/right-trigger-pressed.svg") !important;
 }
 
 /* PLAYER INDICATOR */
 
-.controller:is(.edit,.custom,.xbox) .quadrant {
+.controller.xbox .quadrant {
     position: absolute;
     left: 354px;
     top: 258px;
@@ -301,4 +296,4 @@
     background: none !important;
 }
 
-/* END */
+/* END x1oxy_ CONTROLLER */
