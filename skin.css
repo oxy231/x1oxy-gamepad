@@ -9,6 +9,9 @@
   background-repeat:no-repeat !important;
   background-position:center center !important;
   position:relative;
+  transform:translate(25px, 40px) !important;
+  margin-left:-375px !important;
+  margin-top:0px !important;
 }
 .controller.edit.disconnected, .controller.custom.disconnected, .controller.xbox.disconnected {
   background-image:url("https://oxy231.github.io/x1oxy-gamepad/controller.png") !important;
