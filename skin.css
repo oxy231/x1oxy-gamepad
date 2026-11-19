@@ -82,44 +82,49 @@
    x1oxy_ — STICK AND BUTTON ALIGNMENT
    ======================================== */
 
-/* Left and right analog sticks */
+/* Move both analog sticks together */
 .controller:is(.edit,.custom,.xbox) .sticks {
-    left: 144px !important;
-    top: 239px !important;
+    left: 130px !important;
+    top: 225px !important;
 }
 
+/* Left analog stick */
 .controller:is(.edit,.custom,.xbox) .stick.left {
     left: 0px !important;
     top: 0px !important;
 }
 
+/* Right analog stick */
 .controller:is(.edit,.custom,.xbox) .stick.right {
     left: 288px !important;
     top: 113px !important;
 }
 
-/* ABXY button group */
+/* Move all ABXY buttons together */
 .controller:is(.edit,.custom,.xbox) .abxy {
-    left: 488px !important;
-    top: 192px !important;
+    left: 465px !important;
+    top: 168px !important;
 }
 
-/* Individual buttons */
+/* A button */
 .controller:is(.edit,.custom,.xbox) .abxy .a {
     left: 55px !important;
     top: 108px !important;
 }
 
+/* B button */
 .controller:is(.edit,.custom,.xbox) .abxy .b {
     right: 0px !important;
     top: 58px !important;
 }
 
+/* X button */
 .controller:is(.edit,.custom,.xbox) .abxy .x {
     left: 4px !important;
     top: 58px !important;
 }
 
+/* Y button */
 .controller:is(.edit,.custom,.xbox) .abxy .y {
     left: 55px !important;
     top: 7px !important;
