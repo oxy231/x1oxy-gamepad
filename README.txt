@@ -1,6 +1,9 @@
-x1oxy_ LOW FREQUENCY — Xbox GamePad Viewer SVG skin
+x1oxy_ final GamePad Viewer skin
 
-All original filenames and dimensions are preserved.
-Upload each SVG to a static HTTPS host and map each part in GamePad Viewer beta skin editor.
-Files ending -pressed.svg are active button states.
-SVG graphics alone do not provide input tracking; GamePad Viewer handles that.
+1. Copy all files in this folder to the ROOT of GitHub repo oxy231/x1oxy-gamepad (replace existing skin.css).
+2. Commit and push changes using GitHub Desktop.
+3. In beta.gamepadviewer.com/generate Skin > Edit CSS URL paste https://oxy231.github.io/x1oxy-gamepad/skin.css?v=2
+4. Save and use Copy overlay link in OBS Browser Source. Leave OBS Custom CSS blank.
+
+The controller.png file is an exact byte-for-byte copy of your approved artwork.
+Note: GPV beta selectors are based on the earlier stylesheet; actual live animation has not been verified.
