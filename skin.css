@@ -68,8 +68,9 @@
    x1oxy_ — CONTROLLER POSITION FIX
    ======================================== */
 
+
 .controller.edit,
 .controller.custom,
 .controller.xbox {
-    transform: translateY(150px) !important;
+    transform: translateY(0px) !important;
 }
